@@ -1,0 +1,26 @@
+{
+  "name": "nyanrus.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@std/path": "npm:@jsr/std__path@^0.225.1",
+    "@unocss/reset": "^0.60.2",
+    "solid-js": "^1.8.17"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "solid-styled-jsx": "^0.27.1",
+    "unocss": "^0.60.2",
+    "vite": "^5.2.11",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}
