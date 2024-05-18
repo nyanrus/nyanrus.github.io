@@ -74,7 +74,7 @@ function Home() {
       font-variation-settings: 'wght' 400;
     }
     body > div {
-      margin: 90px 160px;
+      margin: calc(100vh/12) calc(100vw/12);
     }
     section > div {
       padding-left: 2em;
