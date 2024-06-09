@@ -53,24 +53,23 @@ function Home() {
   <style jsx dynamic aria-hidden="true">
   {`
     @font-face {
-      font-family: "NotoSansJP";
+      font-family: "Lexend";
       src:
-        url("NotoSansJP-VariableFont_wght.ttf") format('truetype');
+        url("Lexend-VariableFont_wght.woff2") format('woff2');
+        url("Lexend-VariableFont_wght.woff") format('woff');
     }
     body {
-      font-family: NotoSansJP;
+      font-family: Lexend, 'sans-serif';
       font-variation-settings: 'wght' 300;
       background: #F2F2F2;
     }
     h1, h2 {
-      font-family: NotoSansJP;
       font-variation-settings: 'wght' 500;
     }
     h2 {
       font-size: 1.3em;
     }
     h3 {
-      font-family: NotoSansJP;
       font-variation-settings: 'wght' 400;
     }
     body > div {
