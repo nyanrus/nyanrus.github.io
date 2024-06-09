@@ -45,8 +45,13 @@ function Home() {
       <a href="https://discord.com/users/285656419695460352">@nyanrus</a>
       <p>I am currently active on Discord Ablaze Community Server</p>
     </div>
+    <div>
+    <label>GitHub:</label>
+    <a href="https://github.com/nyanrus">@nyanrus</a>
+    </div>
   </section>
   <p>Thank you for visiting.</p>
+  <a href={"https://github.com/nyanrus/nyanrus.github.io"}>Page Source</a>
 
 
 
@@ -83,6 +88,9 @@ function Home() {
     }
     div > a {
       padding-left: 0.2em;
+    }
+    a {
+    font-size:1.2em;
     }
   `}
 </style></>
