@@ -92,6 +92,9 @@ function Home() {
     a {
     font-size:1.2em;
     }
+    li {
+      padding-bottom: 8px;
+    }
   `}
 </style></>
 }
